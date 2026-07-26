@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Building on 63rd Street — An Interactive Plan | The Holmes Archive</title>
+<meta name="description" content="An explorable floor plan of H. H. Holmes's Englewood building at 601–603 West 63rd Street, Chicago: what the 1895 police search recorded room by room, and which features were added later by the press.">
+<meta name="theme-color" content="#08090b">
+<link rel="canonical" href="./castle.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2308090b'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' fill='%23c9a227' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..800;1,400..700&family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="./assets/css/style.css">
+<script>(function(){var r=document.documentElement;r.classList.add("js-ready");try{var t=localStorage.getItem("holmes-theme");if(t)r.setAttribute("data-theme",t);}catch(e){}})();</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap wrap--wide site-header__inner">
+    <a class="brand" href="./index.html">
+      <span class="brand__mark" aria-hidden="true">HH</span>
+      <span class="brand__text">
+        <span class="brand__title">The Holmes Archive</span>
+        <span class="brand__sub">Record &amp; Legend</span>
+      </span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="./index.html">Overview</a>
+      <a href="./biography.html">Life</a>
+      <a href="./castle.html" aria-current="page">The Castle</a>
+      <a href="./victims.html">Victims</a>
+      <a href="./investigation.html">Manhunt &amp; Trial</a>
+      <a href="./myths.html">Myth Check</a>
+      <a href="./timeline.html">Timeline</a>
+      <a href="./sources.html">Sources</a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch to light theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="progress-bar" aria-hidden="true"></div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <span class="page-hero__num" aria-hidden="true">II</span>
+  <div class="wrap">
+    <p class="eyebrow">Chapter two</p>
+    <h1>The building on 63rd Street</h1>
+    <p class="lede">
+      Nobody called it the Murder Castle until the newspapers did, in August 1895,
+      three years after it was finished and a year after Holmes had abandoned it.
+      This is what stood there, floor by floor — and where the record stops and the
+      invention starts.
+    </p>
+  </div>
+</section>
+
+<!-- =================== ORIENTATION =================== -->
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="grid grid--4" data-stagger="70">
+      <div class="stat" data-reveal>
+        <span class="stat__value">1887<sup>–92</sup></span>
+        <span class="stat__label">Built</span>
+        <span class="stat__note">In stages, as money and credit allowed.</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__value"><span data-count="3">0</span></span>
+        <span class="stat__label">Storeys above ground</span>
+        <span class="stat__note">Plus a basement. Retail below, rooms above.</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__value">601<sup>–3</sup></span>
+        <span class="stat__label">W. 63rd Street</span>
+        <span class="stat__note">At South Wallace Avenue, Englewood, Chicago.</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__value">1938</span>
+        <span class="stat__label">Demolished</span>
+        <span class="stat__note">A U.S. Post Office stands on the site today.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== INTERACTIVE PLAN =================== -->
+<section class="section section--alt section--ruled">
+  <div class="wrap wrap--wide">
+    <div class="section-head">
+      <p class="eyebrow">Interactive</p>
+      <h2>Walk the plan</h2>
+      <p>
+        Choose a floor, then select any room. The panel tells you what was actually
+        recorded there — and flags the rooms that exist only in the legend. These
+        plans are <strong>reconstructions</strong>: no complete original architectural
+        drawing of the building is known to survive, and every published "floor plan"
+        of the Castle, including the famous 1895 newspaper diagrams, is an artist's
+        interpretation.
+      </p>
+    </div>
+
+    <div class="castle">
+
+      <!-- ---------- PLAN ---------- -->
+      <div class="plan-frame" data-plan>
+        <div class="plan-frame__label">
+          <span>Reconstruction &middot; not to scale</span>
+          <span>601–603 W. 63rd St.</span>
+        </div>
+
+        <div class="floor-tabs" role="tablist" aria-label="Select a floor">
+          <button class="floor-tab" type="button" role="tab" data-floor="basement" aria-selected="false">Basement</button>
+          <button class="floor-tab" type="button" role="tab" data-floor="ground" aria-selected="true">Ground</button>
+          <button class="floor-tab" type="button" role="tab" data-floor="second" aria-selected="false">Second</button>
+          <button class="floor-tab" type="button" role="tab" data-floor="third" aria-selected="false">Third</button>
+        </div>
+
+        <!-- ============ BASEMENT ============ -->
+        <div data-floor-panel="basement" hidden>
+          <svg class="plan" viewBox="0 0 600 392" role="group" aria-label="Basement plan">
+            <text class="plan-title" x="20" y="24">Basement — excavated 1895</text>
+            <rect class="wall" x="40" y="40" width="520" height="330"/>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Basement"
+               data-title="The excavated floor"
+               data-body="Police and volunteers dug the basement floor over several weeks in July and August 1895. They recovered charred bone fragments, a length of women's clothing, and material an examiner described as human remains — but no complete body was ever identified from the basement, and no victim was ever conclusively named from what was found there."
+               data-status="probable" data-status-label="Partly documented">
+              <rect x="60" y="60" width="220" height="150" rx="2"/>
+            </g>
+            <text class="room-label" x="170" y="132">Main excavation</text>
+            <text class="room-label" x="170" y="146" style="font-size:7px;">bone fragments recovered</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Basement"
+               data-title="The quicklime pit"
+               data-body="A vat of corrosive material was reported in the basement. Quicklime, however, is a poor body-disposal agent — it retards decomposition rather than accelerating it, which is precisely why it was used in mass burials to control odour and disease. The pit is plausible as a builder's slaking pit for mortar and plaster in a building under constant renovation."
+               data-status="disputed" data-status-label="Disputed">
+              <rect x="300" y="60" width="120" height="90" rx="2"/>
+            </g>
+            <text class="room-label" x="360" y="108">Lime / slaking pit</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Basement"
+               data-title="The dissecting table"
+               data-body="Searchers reported a long table, surgical tools and a trunk. Holmes had a genuine medical degree and had traded articulated skeletons to medical schools — an unusual but entirely legal business in the 1890s. The equipment is consistent with that trade; the newspapers reported it as a butchery."
+               data-status="probable" data-status-label="Probable, ambiguous">
+              <rect x="440" y="60" width="100" height="90" rx="2"/>
+            </g>
+            <text class="room-label" x="490" y="108">Table &amp; tools</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Basement"
+               data-title="The crematory furnace"
+               data-body="A large stove or kiln was found in the basement and instantly christened a crematorium. A domestic furnace of that period does not reach the sustained 800–1,000°C required to reduce a human body, and the object is at least as consistent with the glass-bending business Holmes had promoted to investors. This is the single most repeated feature of the legend and among the least supported."
+               data-status="myth" data-status-label="Largely invention">
+              <rect x="300" y="180" width="120" height="90" rx="2"/>
+            </g>
+            <text class="room-label" x="360" y="222">&quot;Crematory&quot;</text>
+            <text class="room-label" x="360" y="236" style="font-size:7px;">stove / glass kiln</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Basement"
+               data-title="Coal store and cistern"
+               data-body="Ordinary services for a commercial block of the period: coal storage for the heating plant, a water cistern, and the gas meter. Every large Chicago building of the 1890s had them. They appear in sensational accounts as 'tanks' and 'vats' of sinister purpose."
+               data-status="confirmed" data-status-label="Documented, mundane">
+              <rect x="440" y="180" width="100" height="90" rx="2"/>
+            </g>
+            <text class="room-label" x="490" y="222">Coal &amp; cistern</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Basement"
+               data-title="The chute"
+               data-body="A shaft ran from the upper floors to the basement. Buildings of this type routinely had goods lifts, ash chutes and dumbwaiters — and Holmes's ground floor was retail, needing stock moved down to storage. Whether it was ever used to move a body is unrecorded. The 'body chute' name is a press coinage of 1895."
+               data-status="disputed" data-status-label="Feature real, purpose disputed">
+              <rect x="60" y="240" width="70" height="90" rx="2"/>
+            </g>
+            <text class="room-label" x="95" y="288">Shaft</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Basement"
+               data-title="Storage vaults"
+               data-body="Sub-street storage rooms serving the shops above. In August 1895 crowds gathered outside the building daily while the dig went on, and admission to the 'Castle' was briefly sold to sightseers — the commercialisation of the legend began within days of its invention."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="150" y="240" width="130" height="90" rx="2"/>
+            </g>
+            <text class="room-label" x="215" y="288">Storage</text>
+          </svg>
+        </div>
+
+        <!-- ============ GROUND ============ -->
+        <div data-floor-panel="ground">
+          <svg class="plan" viewBox="0 0 600 392" role="group" aria-label="Ground floor plan">
+            <text class="plan-title" x="20" y="24">Ground floor — retail frontage</text>
+            <rect class="wall" x="40" y="40" width="520" height="330"/>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Ground floor"
+               data-title="The drugstore"
+               data-body="The original business, taken over from Elizabeth S. Holton around 1886. It was a real, licensed, functioning pharmacy with a real customer base — the respectable front that made everything else possible. Holmes was, by every account, a good pharmacist and an excellent salesman."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="60" y="230" width="140" height="120" rx="2"/>
+            </g>
+            <text class="room-label" x="130" y="286">Drugstore</text>
+            <text class="room-label" x="130" y="300" style="font-size:7px;">licensed pharmacy</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Ground floor"
+               data-title="Jewellery &amp; optical counter"
+               data-body="Leased space where Ned Conner worked as a jeweller. His wife Julia and their daughter Pearl lived in the building. Conner left in 1891 after Holmes's attentions to Julia became impossible to ignore; Julia and Pearl stayed, and vanished that Christmas."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="210" y="230" width="130" height="120" rx="2"/>
+            </g>
+            <text class="room-label" x="275" y="286">Jewellery counter</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Ground floor"
+               data-title="Restaurant and let shops"
+               data-body="The remaining frontage was leased to a succession of small tenants — a restaurant, a barber, a confectioner. Tenants came and went quickly, generally over unpaid fittings or Holmes's habit of mortgaging their fixtures. Several later testified about the building's peculiarities."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="350" y="230" width="190" height="120" rx="2"/>
+            </g>
+            <text class="room-label" x="445" y="286">Restaurant &amp; let shops</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Ground floor"
+               data-title="Entrance hall and stair"
+               data-body="A separate street door and stair carried lodgers to the upper floors without passing through the shops — a standard arrangement for mixed-use blocks, and the detail that makes the 'nobody saw anyone come or go' claim far less remarkable than it sounds."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="255" y="140" width="90" height="80" rx="2"/>
+            </g>
+            <text class="room-label" x="300" y="184">Stair hall</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Ground floor"
+               data-title="Rear stock rooms"
+               data-body="Storage and preparation space behind the shops, connected to the basement by the goods shaft. Holmes ran several mail-order ventures out of the building, including a widely advertised cure for alcoholism that consisted mostly of water."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="60" y="60" width="180" height="150" rx="2"/>
+            </g>
+            <text class="room-label" x="150" y="140">Stock rooms</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Ground floor"
+               data-title="Rear yard and delivery"
+               data-body="Loading access from the alley. This is where materials arrived for the near-continuous rebuilding of the upper floors, and where a long procession of unpaid suppliers came looking for their goods."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="360" y="60" width="180" height="150" rx="2"/>
+            </g>
+            <text class="room-label" x="450" y="140">Yard &amp; delivery</text>
+          </svg>
+        </div>
+
+        <!-- ============ SECOND ============ -->
+        <div data-floor-panel="second" hidden>
+          <svg class="plan" viewBox="0 0 600 392" role="group" aria-label="Second floor plan">
+            <text class="plan-title" x="20" y="24">Second floor — rooms, office and the vault</text>
+            <rect class="wall" x="40" y="40" width="520" height="330"/>
+
+            <!-- corridor -->
+            <rect x="60" y="192" width="480" height="34" fill="none" stroke="#4a5666" stroke-dasharray="4 4"/>
+            <text class="room-label" x="300" y="214" style="font-size:7px;">CORRIDOR — repeatedly re-partitioned</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Second floor"
+               data-title="Holmes's office"
+               data-body="His own room, containing the safe, the correspondence and the accounts. When investigators finally got into the building they recovered enough paper to reconstruct years of overlapping frauds — which is how the case against him was ultimately built."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="60" y="60" width="150" height="120" rx="2"/>
+            </g>
+            <text class="room-label" x="135" y="118">Office</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Second floor"
+               data-title="The airtight vault"
+               data-body="The most genuinely disturbing feature of the building, and one of the few sinister ones with real support. A large windowless closet or vault adjoined the office. Searchers reported a gas fitting serving it and — most tellingly — the imprint of a bare foot on the inside of the door, as though someone had kicked at it from within."
+               data-status="probable" data-status-label="Probable">
+              <rect x="222" y="60" width="86" height="76" rx="2"/>
+            </g>
+            <text class="room-label" x="265" y="96">Vault</text>
+            <text class="room-label" x="265" y="108" style="font-size:7px;">gas fitting</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Second floor"
+               data-title="The gas-control room"
+               data-body="Newspapers described a control panel in the office from which Holmes could flood any room in the building with gas at will. No such apparatus was ever produced, photographed or entered into evidence, and no plumber or gasfitter ever testified to installing one. The building did have gas laid on — as every building did."
+               data-status="myth" data-status-label="Invention">
+              <rect x="320" y="60" width="110" height="76" rx="2"/>
+            </g>
+            <text class="room-label" x="375" y="96">&quot;Gas controls&quot;</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Second floor"
+               data-title="Lodging rooms"
+               data-body="Small let rooms. Tenants really did live here — clerks, stenographers, tradespeople — and most of them moved out again perfectly alive. Emeline Cigrand worked in this building as a stenographer in 1892 and disappeared from it in December of that year."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="442" y="60" width="98" height="120" rx="2"/>
+            </g>
+            <text class="room-label" x="491" y="118">Let rooms</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Second floor"
+               data-title="Blind room / dead space"
+               data-body="Rooms without windows, doors opening onto brick, and a stair that terminated at a ceiling are all attested by workmen and later searchers. The likeliest explanation is not architecture-as-trap but a serial defaulter re-partitioning his own building over five years with a rotating cast of contractors, none of whom ever saw the whole job — and none of whom he paid in full."
+               data-status="disputed" data-status-label="Real; purpose disputed">
+              <rect x="60" y="240" width="150" height="110" rx="2"/>
+            </g>
+            <text class="room-label" x="135" y="290">Blind rooms</text>
+            <text class="room-label" x="135" y="304" style="font-size:7px;">no windows</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Second floor"
+               data-title="The stairway to nowhere"
+               data-body="A short flight rising into a sealed ceiling. Genuinely present, genuinely strange, and genuinely explicable: the upper floors were altered repeatedly, and an abandoned stair left in place is the cheapest possible outcome of a changed plan."
+               data-status="disputed" data-status-label="Real; purpose disputed">
+              <rect x="222" y="240" width="86" height="110" rx="2"/>
+            </g>
+            <text class="room-label" x="265" y="298">Stair to nowhere</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Second floor"
+               data-title="Goods shaft"
+               data-body="The vertical shaft connecting all floors to the basement. Called a dumbwaiter by the builders and a body chute by the press. Both descriptions fit the same hole."
+               data-status="disputed" data-status-label="Feature real, purpose disputed">
+              <rect x="320" y="240" width="70" height="110" rx="2"/>
+            </g>
+            <text class="room-label" x="355" y="298">Shaft</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Second floor"
+               data-title="Bath and service"
+               data-body="Shared washing facilities for the lodging rooms — normal for a let building of this class, where private plumbing per room was still a luxury."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="402" y="240" width="138" height="110" rx="2"/>
+            </g>
+            <text class="room-label" x="471" y="298">Bath &amp; service</text>
+          </svg>
+        </div>
+
+        <!-- ============ THIRD ============ -->
+        <div data-floor-panel="third" hidden>
+          <svg class="plan" viewBox="0 0 600 392" role="group" aria-label="Third floor plan">
+            <text class="plan-title" x="20" y="24">Third floor — the &quot;hotel&quot; that probably never opened</text>
+            <rect class="wall" x="40" y="40" width="520" height="330"/>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Third floor"
+               data-title="The World's Fair Hotel"
+               data-body="Holmes advertised the upper floor as lodging for exposition visitors and applied for a hotel licence. Researchers reviewing city licensing records, directories and advertising have found no evidence that it ever operated as a working hotel during the fair, and no missing fairgoer has ever been documented as staying here. The hotel is the hinge of the entire legend, and it is the claim that holds up worst."
+               data-status="myth" data-status-label="Not supported by records">
+              <rect x="60" y="60" width="480" height="90" rx="2"/>
+            </g>
+            <text class="room-label" x="300" y="100">&quot;World's Fair Hotel&quot; — advertised, apparently never operating</text>
+            <text class="room-label" x="300" y="118" style="font-size:7px;">no licence record · no guest register · no documented fairgoer victim</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Third floor"
+               data-title="Unfinished rooms"
+               data-body="Much of the top floor was still raw when Holmes left Chicago in 1894 — lath without plaster, partitions framed but not closed. He ran out of credit before he ran out of plans. The building was never finished, and that fact alone strains the picture of a purpose-built killing machine operating at capacity."
+               data-status="probable" data-status-label="Probable">
+              <rect x="60" y="180" width="220" height="80" rx="2"/>
+            </g>
+            <text class="room-label" x="170" y="224">Unfinished rooms</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Third floor"
+               data-title="The soundproof chamber"
+               data-body="Described in 1895 reporting as a room lined with asbestos and iron to muffle screams. Asbestos sheeting was an ordinary fireproofing material of the period, used routinely around flues and stoves, and Chicago's post-1871 building culture was preoccupied with fire. The sinister reading was supplied by the reporter, not the material."
+               data-status="myth" data-status-label="Invention">
+              <rect x="300" y="180" width="130" height="80" rx="2"/>
+            </g>
+            <text class="room-label" x="365" y="224">&quot;Soundproof room&quot;</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Third floor"
+               data-title="Roof access and water tank"
+               data-body="Tank, flue and roof hatch. In August 1895, while the country was reading about the basement dig, a fire broke out in the upper floors and gutted much of this level — conveniently, from the point of view of anyone hoping to examine it, and suspiciously, from the point of view of everyone else."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="450" y="180" width="90" height="80" rx="2"/>
+            </g>
+            <text class="room-label" x="495" y="224">Roof &amp; tank</text>
+
+            <g class="room" role="button" tabindex="0" aria-pressed="false"
+               data-floor="Third floor"
+               data-title="After 1895"
+               data-body="The burnt building was patched and stood for another four decades, its ground floor still trading, its notoriety a local curiosity. It was demolished in 1938. The United States Post Office built on the site is still there — the address most people arrive looking for no longer exists in any meaningful sense."
+               data-status="confirmed" data-status-label="Documented">
+              <rect x="60" y="290" width="480" height="60" rx="2"/>
+            </g>
+            <text class="room-label" x="300" y="324">Burned 1895 · demolished 1938 · post office on the site today</text>
+          </svg>
+        </div>
+      </div>
+
+      <!-- ---------- READOUT ---------- -->
+      <div class="plan-readout" data-plan-readout aria-live="polite">
+        <p class="plan-readout__kicker" data-readout-kicker>Select a room</p>
+        <h3 data-readout-title>What the searchers actually found</h3>
+        <div data-readout-body>
+          <p>
+            When Chicago police finally searched the building in July and August 1895 —
+            prompted not by any Chicago investigation but by the Philadelphia case
+            against Holmes — they were working inside a partially unfinished, heavily
+            re-partitioned commercial block that had stood empty and mortgaged for a
+            year.
+          </p>
+          <p>
+            What they recorded was strange. What the newspapers printed was stranger, and
+            arrived faster. Pick a room to see which is which.
+          </p>
+        </div>
+        <div class="plan-readout__status" data-readout-status></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =================== HOW THE LEGEND FORMED =================== -->
+<section class="section">
+  <div class="wrap">
+    <div class="grid" style="grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: clamp(2rem,5vw,4rem); align-items:start;">
+      <div class="prose" data-reveal>
+        <h2 style="margin-top:0;">How a mortgaged building became a machine</h2>
+        <p>
+          On 20 July 1895 the Chicago police, acting on information from Philadelphia,
+          entered the building. Within days the story had escaped entirely. The
+          <em>Chicago Tribune</em>, the <em>Times-Herald</em>, the <em>Inter Ocean</em>
+          and the New York papers were competing daily, and each new edition needed a
+          new horror. Reporters were given the run of the place. Diagrams were drawn
+          from memory and imagination. Features appeared in print that had not been in
+          the previous day's account of the same room.
+        </p>
+        <p>
+          By the time the excavation ended, the building had acquired a gas chamber, a
+          crematorium, a soundproof vault, an elevator for bodies, and a hundred-odd
+          victims. None of it was evidence. All of it was printed as fact, and it is
+          the version that survived, because it was the version that was fun to read.
+        </p>
+        <p>
+          It is worth being precise about what this correction does and does not do.
+          It does not exonerate Holmes: he murdered people, including children, and the
+          vault on the second floor is a genuinely sinister object. It corrects the
+          scale and the mechanism — from an industrial killing plant to a fraudster's
+          decaying building where several people died and were concealed.
+        </p>
+      </div>
+
+      <div data-reveal>
+        <figure class="plate" style="margin-top:0;">
+          <svg viewBox="0 0 460 300" role="img" aria-label="Chart showing the number of sensational features attributed to the building rising sharply across successive newspaper editions in 1895">
+            <g stroke="#333a44" stroke-width="0.7">
+              <line x1="50" y1="250" x2="440" y2="250"/>
+              <line x1="50" y1="30" x2="50" y2="250"/>
+            </g>
+            <text x="50" y="276" font-family="Inter,sans-serif" font-size="9" fill="#8e9199">20 Jul</text>
+            <text x="150" y="276" font-family="Inter,sans-serif" font-size="9" fill="#8e9199">25 Jul</text>
+            <text x="250" y="276" font-family="Inter,sans-serif" font-size="9" fill="#8e9199">1 Aug</text>
+            <text x="350" y="276" font-family="Inter,sans-serif" font-size="9" fill="#8e9199">15 Aug</text>
+            <text x="14" y="34" font-family="Inter,sans-serif" font-size="9" fill="#8e9199">many</text>
+            <text x="20" y="252" font-family="Inter,sans-serif" font-size="9" fill="#8e9199">few</text>
+
+            <path d="M55 240 L150 205 L250 120 L350 62 L435 44" fill="none" stroke="#b62b2b" stroke-width="2.2"/>
+            <path d="M55 240 L150 205 L250 120 L350 62 L435 44 L435 250 L55 250Z" fill="#8c1c1c" opacity="0.14"/>
+            <g fill="#b62b2b">
+              <circle cx="55" cy="240" r="3.4"/><circle cx="150" cy="205" r="3.4"/>
+              <circle cx="250" cy="120" r="3.4"/><circle cx="350" cy="62" r="3.4"/>
+              <circle cx="435" cy="44" r="3.4"/>
+            </g>
+
+            <path d="M55 238 L150 236 L250 234 L350 233 L435 233" fill="none" stroke="#4e8f81" stroke-width="2.2"/>
+            <text x="150" y="228" font-family="Inter,sans-serif" font-size="9" fill="#4e8f81">items entered in evidence</text>
+            <text x="230" y="100" font-family="Inter,sans-serif" font-size="9" fill="#d05a52">features described in print</text>
+          </svg>
+          <figcaption>
+            Schematic, illustrating a documented dynamic rather than a counted dataset:
+            across four weeks of coverage the building's reported horrors multiplied
+            steeply while the material actually entered into any legal proceeding stayed
+            flat at essentially nothing. No Chicago charge was ever brought over the
+            building.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== VERDICT TABLE =================== -->
+<section class="section section--alt section--ruled">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Summary</p>
+      <h2>The building, feature by feature</h2>
+      <p>Every element of the Castle legend, graded against the surviving record.</p>
+    </div>
+
+    <div class="table-scroll" data-reveal>
+      <table>
+        <caption class="visually-hidden">Assessment of features attributed to the Holmes building</caption>
+        <thead>
+          <tr>
+            <th scope="col">Feature</th>
+            <th scope="col">Status</th>
+            <th scope="col">Assessment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Three-storey mixed-use block</strong></td>
+            <td><span class="pill pill--confirmed">Documented</span></td>
+            <td>Built 1887–92, shops below, rooms above. Real, and unremarkable for Englewood.</td>
+          </tr>
+          <tr>
+            <td><strong>Constant re-partitioning; unpaid contractors</strong></td>
+            <td><span class="pill pill--confirmed">Documented</span></td>
+            <td>Multiple builders, none paid in full, none with sight of the whole job. Attested by suppliers and lawsuits.</td>
+          </tr>
+          <tr>
+            <td><strong>Windowless rooms, blind doors, stair to nowhere</strong></td>
+            <td><span class="pill pill--disputed">Real; purpose disputed</span></td>
+            <td>The oddities existed. Whether they were designed as traps or left by chaotic renovation is the live question.</td>
+          </tr>
+          <tr>
+            <td><strong>Airtight vault beside the office</strong></td>
+            <td><span class="pill pill--probable">Probable</span></td>
+            <td>Reported with a gas fitting and a footprint on the inside of the door. The most credible sinister feature.</td>
+          </tr>
+          <tr>
+            <td><strong>Basement remains</strong></td>
+            <td><span class="pill pill--probable">Partly documented</span></td>
+            <td>Bone fragments and clothing recovered. No identification, no cause of death, no charge.</td>
+          </tr>
+          <tr>
+            <td><strong>Goods shaft / "body chute"</strong></td>
+            <td><span class="pill pill--disputed">Disputed</span></td>
+            <td>A shaft existed. Every commercial block had one. Its use is unrecorded.</td>
+          </tr>
+          <tr>
+            <td><strong>Crematory furnace</strong></td>
+            <td><span class="pill pill--myth">Largely invention</span></td>
+            <td>A domestic stove cannot cremate a body. Probably the glass-bending kiln he had sold to investors.</td>
+          </tr>
+          <tr>
+            <td><strong>Central gas-control panel</strong></td>
+            <td><span class="pill pill--myth">Invention</span></td>
+            <td>Never produced, never photographed, never entered in evidence, never testified to by any fitter.</td>
+          </tr>
+          <tr>
+            <td><strong>Soundproof asbestos chamber</strong></td>
+            <td><span class="pill pill--myth">Invention</span></td>
+            <td>Asbestos was standard fireproofing. The interpretation was the reporter's contribution.</td>
+          </tr>
+          <tr>
+            <td><strong>Operating hotel full of fairgoers</strong></td>
+            <td><span class="pill pill--myth">Not supported</span></td>
+            <td>Advertised, licence sought; no evidence of operation, no documented guest, no traced victim.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="ornament" aria-hidden="true"><span>&#10022;</span></div>
+
+    <div class="text-center">
+      <a class="btn btn--primary" href="./victims.html">Now read who actually died</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap wrap--wide">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="./index.html">
+          <span class="brand__mark" aria-hidden="true">HH</span>
+          <span class="brand__text">
+            <span class="brand__title">The Holmes Archive</span>
+            <span class="brand__sub">Record &amp; Legend</span>
+          </span>
+        </a>
+        <p>An independent, non-commercial history of the Holmes case, written to separate the documented record from a century of accreted invention.</p>
+      </div>
+      <div class="footer-col">
+        <h4>The case</h4>
+        <ul>
+          <li><a href="./biography.html">Biography</a></li>
+          <li><a href="./castle.html">The Castle</a></li>
+          <li><a href="./victims.html">Victims</a></li>
+          <li><a href="./investigation.html">Manhunt &amp; trial</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Reference</h4>
+        <ul>
+          <li><a href="./timeline.html">Timeline</a></li>
+          <li><a href="./myths.html">Myth check</a></li>
+          <li><a href="./sources.html">Sources</a></li>
+          <li><a href="./sources.html#method">Method &amp; corrections</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> The Holmes Archive &middot; Educational and historical use.</span>
+      <span>Text compiled from public-domain trial records, contemporaneous reporting and published scholarship.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="./assets/js/main.js" defer></script>
+</body>
+</html>
