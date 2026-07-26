@@ -55,6 +55,23 @@ python3 -m http.server 8000
 It is also ready to publish with GitHub Pages directly from the repository root
 (a `.nojekyll` file is included so `assets/` is served untouched).
 
+## Single-file build
+
+Some hosts serve exactly one document and block external requests. For those:
+
+```sh
+node tools/build-single-file.js   # -> dist/holmes-archive.html
+```
+
+This inlines the CSS and JS and folds the eight pages into eight sections behind
+a hash router, so `./sources.html#s-geyer` becomes `#/sources/s-geyer` and deep
+links keep working. Two things necessarily differ from the canonical site: the
+webfont link is dropped in favour of a deliberate system stack (Iowan Old
+Style/Palatino for display, Charter/Sitka for text), because a blocked CDN would
+otherwise mean a silent, unchosen fallback; and navigation is client-side.
+Everything else is taken verbatim from source, so fixes to the site flow into
+the bundle on the next build.
+
 ## Structure
 
 ```
@@ -63,6 +80,8 @@ investigation.html  myths.html  timeline.html  sources.html
 assets/
   css/style.css   design tokens, components, light + dark themes
   js/main.js      theme toggle, scroll reveal, filters, accordions, floor plan
+tools/
+  build-single-file.js   bundles the above into dist/holmes-archive.html
 ```
 
 ## Technical notes

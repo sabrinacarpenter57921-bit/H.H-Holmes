@@ -188,7 +188,11 @@
   function initFilters() {
     document.querySelectorAll("[data-filter-group]").forEach(function (group) {
       var targetSel = group.getAttribute("data-filter-target");
-      var targets = document.querySelectorAll(targetSel);
+      // Scope the lookup to this chapter. `.tl-item`, for one, appears on both
+      // the timeline and the investigation chapter, so a document-wide query
+      // would filter — and miscount — elements belonging to another section.
+      var scope = group.closest(".page") || group.closest("main") || document;
+      var targets = scope.querySelectorAll(targetSel);
       var countEl = document.querySelector(group.getAttribute("data-filter-count") || "");
 
       function apply(value) {
